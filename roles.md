@@ -12,9 +12,8 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
   * Issue order
 
     Issuing an order successfully allows the player to take direct control over an NPC controlled component for an action, using the NPC's skills, or take the equivelant of the 'help' action for a PC controlled component, provided the PC follows the order!
-    |  |   |   |
+    | Type | DC  | Description  |
     |--|--|---|
-    |Type| DC | Description|
     | Calm | 0 | No known threats to the ship|
     | Strained| 5| Distant threats like an approaching storm or enemy ships on the horizon|
     | Troubled| 10| Handling threat (avoiding reef, dodging rocks, fighting enemy ship)|
@@ -58,7 +57,15 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
 
 ### Available actions:
 
-  *  
+  *  Direct ship
+  
+  The crew member may make a Vehicle{water}(wisdom), Vehicle{water}(intelligence) or Nature(wisdom) check to either close or increase the distance between their ship and another. The distance change is determined by the difference in the Speed of each ship (minimum 1). For every 5 the crew member rolls on thier check they may treat thier speed as 1 higher for this action.
+
+  * Skim Hazard
+
+
+
+
 
 ## Helm
 
