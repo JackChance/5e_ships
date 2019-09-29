@@ -12,6 +12,7 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
   * Issue order
 
     Issuing an order successfully allows the player to take direct control over an NPC controlled component for an action, using the NPC's skills, or take the equivelant of the 'help' action for a PC controlled component, provided the PC follows the order!
+    
     | Type | DC  | Description  |
     |--|--|---|
     | Calm | 0 | No known threats to the ship|
