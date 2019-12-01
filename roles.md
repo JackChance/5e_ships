@@ -1,6 +1,6 @@
 ## Captain: Coordinates the crews actions and makes decisions about priorities
 
-### Possible key skills: Intimidation, Persuasion
+### Key skills: Intimidation, Persuasion
 
 ### Station: On deck, Crows nest
 
@@ -12,7 +12,7 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
   * Issue order
 
     Issuing an order successfully allows the player to take direct control over an NPC controlled component for an action, using the NPC's skills, or take the equivelant of the 'help' action for a PC controlled component, provided the PC follows the order!
-    
+
     | Type | DC  | Description  |
     |--|--|---|
     | Calm | 0 | No known threats to the ship|
@@ -26,7 +26,7 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
 
 ## Gunner: Loads, aims or fires siege weapons
 
-### Possible Key Skills: Athletics, Tool(siege weapon), Vehicle{water}, Perception
+### Key Skills: Athletics, Tool(siege weapon), Vehicle{water}, Perception
 
 ### Station: Weapon component
 
@@ -36,7 +36,7 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
   
     Every component has a number of 'load' actions that must be taken in order to be ready to fire. The crew member taking this action reduces the 'load actions required' count by 1, and for every 10 rolled on a Athletics(str) or Siege Weapon(str) check they will reduce the number of load actions pending by an additional 1.
 
-    _The Brazen Hawk has a stone thrower requiring 4 load actions between shots. Jester declares his intent to load and rolls a 14 on his athletics, bringing the number down to 2 more actions. Krin also loads but only rolls a 4, bringing the load count to 1. On the next turn Jester rolls a 23, which would reduce the load action count by 3 but only 1 was needed! The weapon is ready to fire and the 2 extra 'loads' have no effect, poor jester_
+    _The Brazen Hawk has a stone thrower requiring 4 load actions between shots. Jester declares his intent to load and rolls a 14 on his athletics, bringing the number down to 2 more actions. Krin also loads but only rolls a 4, bringing the load count to 1. On the next turn Jester rolls a 23, which would reduce the load action count by 3 but only 1 was needed! The weapon is ready to fire and the 2 extra 'loads' have no effect, poor Jester_
   
   * Aim
 
@@ -52,7 +52,7 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
 
 ## Helm
 
-### Possible skills: Vehicle(water), Nature
+### Key skills: Vehicle(water), Nature
 
 ### Station: Rowers bench, Rudder, Ships Wheel
 
@@ -62,16 +62,59 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
   
   The crew member may make a Vehicle{water}(wisdom), Vehicle{water}(intelligence) or Nature(wisdom) check to either close or increase the distance between their ship and another. The distance change is determined by the difference in the Speed of each ship (minimum 1). For every 5 the crew member rolls on thier check they may treat thier speed as 1 higher for this action.
 
-  * Skim Hazard
+  * Navigate Hazard
+
+  Sometimes you have to sail through a dangerous area, sometimes you need to go where your pursuers wont. In either case the crew member at the Helm will need to make a Vehicle{water}(wisdom), VehicleP{water}(dexterity) or Nature(wisdom) check to safely navigate through. The DC depends on your ships size, the crowding conditions of the hazard and the current weather.
+
+  * Ram
+
+  Sometimes your best weapon is your ship. This follows all the same rules as 'Fire!' under gunner and can be combined with a Direct Ship action. The Ram action can only be performed if the distance between your ship and the target is 0 and uses Vehicle{water}(Dexterity) or  Vehicle{water}(Strength)
 
 
 
+## Lookout
 
+### Possible skills: Perception, Vehicle{water}, Nature
 
-## Helm
-
-### Possible skills:
-
-### Station:
+### Station: Crows Nest, Deck
 
 ### Available actions:
+
+  * Keep watch
+
+  This crew member's Passive Perception is the determining factor in detecting enemy ships. In addition it should determine the range at which they spot land and in detecting hidden hazards (reef, rocks, etc.). They may also use an action to Percieve for these, but that should be limited to situations where they have a good reason to be paying closer than normal attention.
+
+  * Relay messages
+
+  There are many methods of relaying messages, whether along the ship or between ships. They consist of visual, such as flags or flashed light patterns, audio such as whistle patterns or even magical. As a last resort the look out is at least typically situated best to shout over the noise of the ship. As an action the Lookout may use Vehicle{water}(Intelligence) or Vehicle{water}(wisdom) to convey a message. Use the Captain's command difficulty to determine how difficult it is to convey the message, adjusted for the method used.
+
+  * Spotter
+
+  By relaying information about how far off a shot lands a Lookout can help a Gunner zero in on thier target. Lookouts also play a valuable role in helping the Helm navigate the ship. Even on open waters an experienced Lookout can find favorable wind channels or areas where the sea is more forgiving to guide the Helm through.
+
+  For spotting for a gunner the Lookout may use an action to roll either Perception(wisdom) or Vehicle{water}(wisdom). If they achieve at least a 10 on this check they will grant Advantage to a single gunner's Aim task. For every 5 above 10 they achieve they may also increase the effective size of a compartment of the target ship by 1.
+
+  For spotting for a Helm they may use an action to roll either Nature(intelligence) or Vehicle{water}(intelligence or wisdom). If they achieve at least a 10 on this check they will grant advantage to the Helm's next task. For every additional 10 they can also give the ship an effective +1 to its Speed rating.
+
+
+## Laborer 
+
+### Possible skills: Athletics, Vehicle{water}, Carpentry tools, Blacksmithing tools, Tinkering tools
+
+### Station: Any
+
+### Available actions:
+
+  * Bail water
+
+  If the Laborer is in a section that has flooding they may spend an action to roll an Athletics(strength) check to reduce the Flooding Level. For every 5 achieved on thier roll they reduce the Flooding Level by 1, spread evenly among all connected sections with leftover reduction applying to thier current section first. 
+  
+  The cantrip Shape Water can be used in various ways to aid this task. A caster may use thier action to either remove 3 Flooding Levels, prevent 3 Breaches from flooding for a round or split 3 between the two effects (seal 1 Breach for a round and remove 2 Flooding Levels)
+
+  * Repair
+
+  The Laborer may attempt to repair a damaged component or piece of equipment. There are 5 levels of broken; Undamaged, Damaged, Malfunctioning, Completely Busted and Utterly Destroyed. A check can only be attempted if the item is Completely Busted or less. The difficulty to repair is determined by the item being repaired itself, and typically it required Carpentry{intelligence} or Blacksmithing{intelligence} to fix, though complicated devices might require tinkering and magical ones may even require Arcana.
+
+  * Patch Hull
+
+  The Laborer may attempt to stem the flooding of a compartment by effecting hasty, ugly repairs. As an action the Laborer may make a Vehicle{water} check in a compartment with a Breach. The difficulty is 5+Flooding Level. The Laborer may close one breach if they match the difficulty plus another for every 10 above the difficulty.
