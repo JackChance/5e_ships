@@ -34,13 +34,13 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
 
   * Load
   
-    Every component has a number of 'load' actions that must be taken in order to be ready to fire. The crew member taking this action reduces the 'load actions required' count by 1, and for every 10 rolled on a Athletics(str) or Siege Weapon(str) check they will reduce the number of load actions pending by an additional 1.
+    Every component has a number of 'load' actions that must be taken in order to be ready to fire. The crew member taking this action reduces the 'load actions required' count by 1, and for every 15 rolled on a Athletics(str) or Siege Weapon(str) check they will reduce the number of load actions pending by an additional 1. Being in a dedicated weapon's bay reduces the DC by 5.
 
-    _The Brazen Hawk has a stone thrower requiring 4 load actions between shots. Jester declares his intent to load and rolls a 14 on his athletics, bringing the number down to 2 more actions. Krin also loads but only rolls a 4, bringing the load count to 1. On the next turn Jester rolls a 23, which would reduce the load action count by 3 but only 1 was needed! The weapon is ready to fire and the 2 extra 'loads' have no effect, poor Jester_
+    _The Brazen Hawk has a stone thrower requiring 4 load actions between shots, and is mounted in a weapon's bay. Jester declares his intent to load and rolls a 14 on his athletics, bringing the number down to 2 more actions. Krin also loads but only rolls a 4, bringing the load count to 1. On the next turn Jester rolls a 23, which would reduce the load action count by 3 but only 1 was needed! The weapon is ready to fire and the 2 extra 'loads' have no effect, poor Jester_
   
   * Aim
 
-    For most devices aiming requires more than simply pivotting your arms; the large and heavy nature of seige weapons typically requires levers and gears to properly aim them. For every 5 that the crew member rolls on a Perception(wisdom), Siege Weapons(wisdom) or Siege weapons(intellegence) check they can increase the effective size of one compartment by 1 for the purposes of thier next shot, making it more likely they will hit thier designated compartment. They may spread these increases among multiple compartments. If the weapon is aimed again before firing any previous aiming results are lost.
+    For most devices aiming requires more than simply pivotting your waist; the large and heavy nature of seige weapons typically requires levers and gears to properly aim them. For every 5 that the crew member rolls on a Perception(wisdom), Siege Weapons(wisdom) or Siege weapons(intellegence) check they can increase the effective size of one compartment by 1 for the purposes of thier next shot, making it more likely they will hit thier designated compartment. They may spread these increases among multiple compartments. If the weapon is aimed again before firing any previous aiming results are lost.
     
     _Krin aims the stone thrower at the poor merchant vessel, rolling a 17 on his Perception score. He decides to target the Deck component, hoping to damage the sail or mast, and increases its effective size from 2 to 5. Since the merchant vessel only has a size 4 cargo hold and size 2 (now effectively 5) deck whoever fires the stone thrower will have a 5/9 chance of hitting the deck instead of 2/6. Good work Krin!_
 
@@ -97,7 +97,7 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
   For spotting for a Helm they may use an action to roll either Nature(intelligence) or Vehicle{water}(intelligence or wisdom). If they achieve at least a 10 on this check they will grant advantage to the Helm's next task. For every additional 10 they can also give the ship an effective +1 to its Speed rating.
 
 
-## Laborer 
+## Deck Hand 
 
 ### Possible skills: Athletics, Vehicle{water}, Carpentry tools, Blacksmithing tools, Tinkering tools
 
@@ -107,14 +107,14 @@ The Captain has a number of Insight dice equal to thier charisma. As an action t
 
   * Bail water
 
-  If the Laborer is in a section that has flooding they may spend an action to roll an Athletics(strength) check to reduce the Flooding Level. For every 5 achieved on thier roll they reduce the Flooding Level by 1, spread evenly among all connected sections with leftover reduction applying to thier current section first. 
+  If the Deck Hand is in a section that has flooding they may spend an action to roll an Athletics(strength) check to reduce the Flooding Level. For every 5 achieved on thier roll they reduce the Flooding Level by 1, spread evenly among all connected sections with leftover reduction applying to thier current section first. 
   
   The cantrip Shape Water can be used in various ways to aid this task. A caster may use thier action to either remove 3 Flooding Levels, prevent 3 Breaches from flooding for a round or split 3 between the two effects (seal 1 Breach for a round and remove 2 Flooding Levels)
 
   * Repair
 
-  The Laborer may attempt to repair a damaged component or piece of equipment. There are 5 levels of broken; Undamaged, Damaged, Malfunctioning, Completely Busted and Utterly Destroyed. A check can only be attempted if the item is Completely Busted or less. The difficulty to repair is determined by the item being repaired itself, and typically it required Carpentry{intelligence} or Blacksmithing{intelligence} to fix, though complicated devices might require tinkering and magical ones may even require Arcana.
+  The Deck Hand may attempt to repair a damaged component or piece of equipment. There are 5 levels of broken; Undamaged, Damaged, Malfunctioning, Completely Busted and Utterly Destroyed. A check can only be attempted if the item is Completely Busted or less. The difficulty to repair is determined by the item being repaired itself, and typically it required Carpentry{intelligence} or Blacksmithing{intelligence} to fix, though complicated devices might require tinkering and magical ones may even require Arcana.
 
   * Patch Hull
 
-  The Laborer may attempt to stem the flooding of a compartment by effecting hasty, ugly repairs. As an action the Laborer may make a Vehicle{water} check in a compartment with a Breach. The difficulty is 5+Flooding Level. The Laborer may close one breach if they match the difficulty plus another for every 10 above the difficulty.
+  The Deck Hand may attempt to stem the flooding of a compartment by effecting hasty, ugly repairs. As an action the Deck Hand may make a Vehicle{water} check in a compartment with a Breach. The difficulty is 5+Flooding Level. The Deck Hand may close one breach if they match the difficulty plus another for every 10 above the difficulty.
