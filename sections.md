@@ -3,7 +3,7 @@ Ships are collections of Sections, with built in Components and added on Equipme
 
 
 | Name | Role | Price| Description |
-| -- | -- | -- | -- | --
+| -- | -- | -- | -- | -- |
 | Decking | General section| 40 gp | A general use, unenclosed empty space |
 | Row bench | Decking or Gallery | 10gp | Oars and fittings for adding rowing speed to a ship. Allows 2 rowers. |
 | Railing | Decking | 10 gp | 3' high railing. Provideds 1/2 cover for Medium or 3/4ths cover for Small characters. Helps prevent accidents.| 
